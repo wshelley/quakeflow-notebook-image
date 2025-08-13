@@ -6,6 +6,7 @@ USER root
 RUN apt-get -yq update \
  && apt-get -yq install --no-install-recommends \
     make \
+    gfortan \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
